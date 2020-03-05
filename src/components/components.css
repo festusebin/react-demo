@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles below */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+header #logo {
+    margin-right: auto;
+}
+
+header ul li {
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 5px;
+}
+
+header ul li:hover {
+    color: cadetblue;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+header ul li a:hover {
+    color: cadetblue;
+}
+
+header button {
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+header button:hover {
+    background-color: #5c8688;
+}
+
+/* Footer styles below */
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eee;
+    padding: 0px 10%;
+}
+
+/* App Styles */
+
+.App {
+    height: 100vh;
+}
